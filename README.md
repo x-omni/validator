@@ -31,7 +31,7 @@ https://github.com/yiminghe/async-validate
 ## Install
 
 ```bash
-npm i @omni/validator
+npm i x-omni/validator
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ npm i @omni/validator
 Basic usage involves defining a descriptor, assigning it to a schema and passing the object to be validated and a callback function to the `validate` method of the schema:
 
 ```js
-import Schema from '@omni/validator';
+import Schema from 'x-omni/validator';
 const descriptor = {
   name: {
     type: 'string',
@@ -123,7 +123,7 @@ function(rule, value, callback, source, options)
 The options passed to `validate` or `asyncValidate` are passed on to the validation functions so that you may reference transient data (such as model references) in validation functions. However, some option names are reserved; if you use these properties of the options object they are overwritten. The reserved properties are `messages`, `exception` and `error`.
 
 ```js
-import Schema from '@omni/validator';
+import Schema from 'x-omni/validator';
 const descriptor = {
   name(rule, value, callback, source, options) {
     const errors = [];
@@ -309,7 +309,7 @@ Note that `defaultField` is expanded to `fields`, see [deep rules](#deep-rules).
 Sometimes it is necessary to transform a value before validation, possibly to coerce the value or to sanitize it in some way. To do this add a `transform` function to the validation rule. The property is transformed prior to validation and returned as promise result or callback result when pass validation.
 
 ```js
-import Schema from '@omni/validator';
+import Schema from 'x-omni/validator';
 const descriptor = {
   name: {
     type: 'string',
@@ -360,7 +360,7 @@ Potentially you may require the same schema validation rules for different langu
 In this scenario you could just provide your own messages for the language and assign it to the schema:
 
 ```js
-import Schema from '@omni/validator';
+import Schema from 'x-omni/validator';
 const cn = {
   required: '%s 必填',
 };
@@ -438,7 +438,7 @@ const fields = {
 ### How to avoid global warning
 
 ```js
-import Schema from '@omni/validator';
+import Schema from 'x-omni/validator';
 Schema.warning = function(){};
 ```
 
