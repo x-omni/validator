@@ -2,7 +2,6 @@
   "name": "@x-omni/validator",
   "version": "4.2.11",
   "description": "validate form asynchronous",
-  "typings": "typings/index.d.ts",
   "keywords": [
     "validator",
     "validate",
