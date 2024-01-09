@@ -11,7 +11,7 @@
   "author": "telanflow@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git@github.com:x-omni/validator.git"
+    "url": "git+ssh://git@github.com/x-omni/validator.git"
   },
   "@pika/pack": {
     "pipeline": [
