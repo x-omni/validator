@@ -2107,30 +2107,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@omni/validator@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@omni/validator@workspace:."
-  dependencies:
-    "@babel/core": ^7.23.7
-    "@babel/node": ^7.22.19
-    "@babel/preset-env": ^7.23.7
-    "@babel/preset-typescript": ^7.23.3
-    "@pika/pack": ^0.5.0
-    "@types/jest": 27.x
-    babel-jest: 27.x
-    coveralls: ^3.1.1
-    jest: 27.x
-    lint-staged: ^7.2.0
-    np: 9.x
-    pika-plugin-build-web-babel: ^0.12.2
-    pika-plugin-ts-types: 0.1.5
-    pre-commit: ^1.2.2
-    prettier: ^3.1.1
-    ts-node: ^10.9.2
-    typescript: ^5.3.3
-  languageName: unknown
-  linkType: soft
-
 "@pika/cli@npm:latest":
   version: 0.2.0
   resolution: "@pika/cli@npm:0.2.0"
@@ -2663,6 +2639,30 @@ __metadata:
   checksum: caa21d2c957592fe2184a8368c8cbe5a82a6c2e2f2893722e489f842dc5963293d2f3120bc06fe3933d60a3a0d1e2eb269649fd6b1947fe1820f8841ba611dd9
   languageName: node
   linkType: hard
+
+"@x-omni/validator@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@x-omni/validator@workspace:."
+  dependencies:
+    "@babel/core": ^7.23.7
+    "@babel/node": ^7.22.19
+    "@babel/preset-env": ^7.23.7
+    "@babel/preset-typescript": ^7.23.3
+    "@pika/pack": ^0.5.0
+    "@types/jest": 27.x
+    babel-jest: 27.x
+    coveralls: ^3.1.1
+    jest: 27.x
+    lint-staged: ^7.2.0
+    np: 9.x
+    pika-plugin-build-web-babel: ^0.12.2
+    pika-plugin-ts-types: 0.1.5
+    pre-commit: ^1.2.2
+    prettier: ^3.1.1
+    ts-node: ^10.9.2
+    typescript: ^5.3.3
+  languageName: unknown
+  linkType: soft
 
 "abab@npm:^2.0.3, abab@npm:^2.0.5":
   version: 2.0.6
