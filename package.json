@@ -55,7 +55,7 @@
     "test-url": "yarn ts-node tests/url.ts",
     "lint-staged": "lint-staged",
     "prettier": "prettier --write \"{src,__tests__,tests}/**/*.{js,tsx,ts}\"",
-    "pub": "np --no-cleanup --no-publish --no-release-draft && npm run build && cd pkg && npm publish --access public --tag latest --with-types",
+    "pub": "np --no-cleanup --no-publish --no-release-draft && npm run build && cd pkg && npm publish --access public --with-types",
     "build": "pika-pack build",
     "test": "jest",
     "test:watch": "jest --watch",
